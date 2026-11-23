@@ -1,0 +1,46 @@
+method,dataset,model,n_texts,true_clusters,predicted_clusters,ACC,ARI,NMI,unsuccessful,llm_calls,time_min,date,threshold,rescue_sim,min_size
+baseline,massive_scenario,qwen2.5:7b,2974,18,71,0.3988,0.3203,0.5583,175,3174,25.9,2026-11-07 14:03,,,
+A+B (merge),massive_scenario,qwen2.5:7b,2974,18,27,0.5171,0.4024,0.5794,116,3173,9.6,2026-11-07 18:30,0.55,,
+A+B+C (merge + rescue),massive_scenario,qwen2.5:7b,2974,18,26,0.5256,0.4128,0.5878,0,3173,9.6,2026-11-07 18:30,0.55,,
+A+B+D (merge + discovery),massive_scenario,qwen2.5:7b,2974,18,29,0.5245,0.4126,0.5894,0,3173,9.6,2026-11-07 18:30,0.55,0.55,5.0
+A+B (merge),massive_scenario,qwen2.5:7b,2974,18,21,0.5185,0.4037,0.5583,118,3173,9.5,2026-11-07 18:41,0.6,,
+A+B+C (merge + rescue),massive_scenario,qwen2.5:7b,2974,18,20,0.5188,0.4078,0.562,0,3173,9.5,2026-11-07 18:41,0.6,,
+A+B+D (merge + discovery),massive_scenario,qwen2.5:7b,2974,18,28,0.5195,0.4083,0.5681,0,3173,9.5,2026-11-07 18:41,0.6,0.55,5.0
+A+B (merge),massive_scenario,qwen2.5:7b,2974,18,37,0.4812,0.3642,0.5791,194,3173,0.0,2026-11-07 18:46,0.5,,
+A+B+C (merge + rescue),massive_scenario,qwen2.5:7b,2974,18,36,0.4936,0.3857,0.5893,0,3173,0.0,2026-11-07 18:46,0.5,,
+A+B+D (merge + discovery),massive_scenario,qwen2.5:7b,2974,18,41,0.4939,0.3848,0.5931,0,3173,0.0,2026-11-07 18:46,0.5,0.55,5.0
+baseline,massive_scenario,qwen3:8b,2974,18,241,0.303,0.2254,0.6089,20,3174,130.5,2026-11-07 21:45,,,
+A+B (merge),massive_scenario,qwen3:8b,2974,18,93,0.4375,0.344,0.6125,79,3173,119.0,2026-11-08 03:11,0.6,,
+A+B+C (merge + rescue),massive_scenario,qwen3:8b,2974,18,93,0.4401,0.3492,0.6211,0,3173,119.0,2026-11-08 03:11,0.6,,
+A+B+D (merge + discovery),massive_scenario,qwen3:8b,2974,18,95,0.4378,0.3479,0.6203,0,3173,119.0,2026-11-08 03:11,0.6,0.55,5.0
+"K-means (MiniLM, true K)",massive_scenario,none,2974,18,18,0.5835,0.4335,0.6435,0,0,0.11,2026-11-08 13:30,,,
+"K-means (MiniLM, same K as ours (qwen2.5:7b))",massive_scenario,none,2974,18,36,0.4548,0.3464,0.6428,0,0,0.61,2026-11-08 13:30,,,
+"K-means (MiniLM, same K as ours (qwen3:8b))",massive_scenario,none,2974,18,93,0.2569,0.1928,0.6084,0,0,2.12,2026-11-08 13:30,,,
+"K-means (E5-large, true K)",massive_scenario,none,2974,18,18,0.602,0.4615,0.6531,0,0,1.36,2026-11-08 13:30,,,
+"K-means (E5-large, same K as ours (qwen2.5:7b))",massive_scenario,none,2974,18,36,0.4564,0.3525,0.6515,0,0,7.47,2026-11-08 13:30,,,
+"K-means (E5-large, same K as ours (qwen3:8b))",massive_scenario,none,2974,18,93,0.2702,0.1988,0.6181,0,0,12.69,2026-11-08 13:30,,,
+"K-means (MiniLM, K chosen by silhouette)",massive_scenario,none,2974,18,45,0.4189,0.3165,0.6408,0,0,0.14,2026-11-08 13:30,,,
+"K-means (E5-large, K chosen by silhouette)",massive_scenario,none,2974,18,35,0.4709,0.3557,0.6494,0,0,5.49,2026-11-08 13:30,,,
+baseline,massive_intent,qwen2.5:7b,2974,59,92,0.3312,0.0743,0.5136,1131,3174,13.2,2026-11-08 14:15,,,
+A+B (merge),massive_intent,qwen2.5:7b,2974,59,68,0.3406,0.0917,0.5341,1079,3173,10.8,2026-11-08 19:19,0.3,,
+A+B+C (merge + rescue),massive_intent,qwen2.5:7b,2974,59,88,0.4556,0.3615,0.6651,0,3173,10.8,2026-11-08 19:19,0.3,,
+A+B+D (merge + discovery),massive_intent,qwen2.5:7b,2974,59,88,0.4556,0.3615,0.6651,0,3173,10.8,2026-11-08 19:19,0.3,0.55,5.0
+A+B (merge),massive_intent,qwen2.5:7b,2974,59,29,0.3194,0.1145,0.4887,1118,3173,10.4,2026-11-08 21:16,0.5,,
+A+B+C (merge + rescue),massive_intent,qwen2.5:7b,2974,59,34,0.4778,0.3616,0.6377,0,3173,10.4,2026-11-08 21:16,0.5,,
+A+B+D (merge + discovery),massive_intent,qwen2.5:7b,2974,59,37,0.4842,0.3723,0.6457,0,3173,10.4,2026-11-08 21:16,0.5,0.55,5.0
+A+B (merge),massive_intent,qwen2.5:7b,2974,59,51,0.4206,0.2803,0.6116,433,3173,0.0,2026-11-08 21:20,0.4,,
+A+B+C (merge + rescue),massive_intent,qwen2.5:7b,2974,59,59,0.458,0.3696,0.6636,0,3173,0.0,2026-11-08 21:20,0.4,,
+A+B+D (merge + discovery),massive_intent,qwen2.5:7b,2974,59,60,0.4627,0.3723,0.6667,0,3173,0.0,2026-11-08 21:20,0.4,0.55,5.0
+"K-means (MiniLM, true K)",massive_intent,none,2974,59,59,0.5337,0.3862,0.7048,0,0,0.79,2026-11-08 21:37,,,
+"K-means (MiniLM, same K as ours (qwen2.5:7b))",massive_intent,none,2974,59,59,0.5337,0.3862,0.7048,0,0,0.83,2026-11-08 21:37,,,
+"K-means (E5-large, true K)",massive_intent,none,2974,59,59,0.5263,0.3894,0.7098,0,0,3.78,2026-11-08 21:37,,,
+"K-means (E5-large, same K as ours (qwen2.5:7b))",massive_intent,none,2974,59,59,0.5263,0.3894,0.7098,0,0,0.47,2026-11-08 21:37,,,
+"K-means (MiniLM, K chosen by silhouette)",massive_intent,none,2974,59,45,0.5367,0.3974,0.6947,0,0,0.14,2026-11-08 21:37,,,
+"K-means (E5-large, K chosen by silhouette)",massive_intent,none,2974,59,35,0.5225,0.4215,0.6916,0,0,0.47,2026-11-08 21:37,,,
+F (A+B+C + label definitions),massive_intent,qwen2.5:7b,2974,59,61,0.518,0.361,0.693,0,3234,119.0,2026-11-13 15:59,0.4,,
+"E+F (definitions, LLM on 20% + classifier)",massive_intent,qwen2.5:7b,2974,59,55,0.4982,0.2374,0.6387,0,854,23.8,2026-11-13 16:51,0.4,,
+"E (A+B+C, LLM on 10% + classifier)",massive_scenario,qwen2.5:7b,2974,18,33,0.5522,0.4156,0.6197,0,496,1.0,2026-11-13 18:06,0.5,,
+"E (A+B+C, LLM on 10% + classifier)",massive_scenario,qwen3:8b,2974,18,59,0.5383,0.3723,0.6149,0,496,11.9,2026-11-13 18:06,0.6,,
+"E (A+B+C, LLM on 10% + classifier)",massive_intent,qwen2.5:7b,2974,59,49,0.4479,0.2838,0.6242,0,496,1.1,2026-11-13 18:06,0.4,,
+"E+F (definitions, LLM on 10% + classifier)",massive_intent,qwen2.5:7b,2974,59,51,0.4634,0.204,0.6066,0,557,11.9,2026-11-13 18:06,0.4,,
+"E+F (definitions, LLM on 50% + classifier)",massive_intent,qwen2.5:7b,2974,59,60,0.5269,0.3422,0.6884,0,1747,59.5,2026-11-13 18:06,0.4,,
