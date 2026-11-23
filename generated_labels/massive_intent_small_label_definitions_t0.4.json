@@ -1,0 +1,635 @@
+{
+  "music query": {
+    "definition": "The user wants to query or interact with music-related information or services, such as playing, deleting, or recommending songs or playlists, and may also include requests for current or upcoming music events or releases.",
+    "keywords": [
+      "query music",
+      "play song",
+      "delete playlist",
+      "recommend playlist",
+      "current songs",
+      "upcoming music"
+    ]
+  },
+  "play music": {
+    "definition": "The user wants to initiate or control the playback of music according to their preferences or specific requests.",
+    "keywords": [
+      "play",
+      "music",
+      "album",
+      "playlist",
+      "songs",
+      "turn on"
+    ]
+  },
+  "iot hue lightoff": {
+    "definition": "The user wants to turn off a smart light controlled by the Hue system.",
+    "keywords": [
+      "turn off",
+      "Hue light",
+      "light off",
+      "smart light",
+      "iot hue"
+    ]
+  },
+  "transport ticket": {
+    "definition": "The user wants to purchase or obtain a transport ticket for a specific destination.",
+    "keywords": [
+      "train ticket",
+      "buy ticket",
+      "ticket for",
+      "transport ticket"
+    ]
+  },
+  "email sendemail": {
+    "definition": "The user wants to send an email to a specified recipient with a given message content.",
+    "keywords": [
+      "send email",
+      "email to",
+      "message content",
+      "recipient",
+      "send now"
+    ]
+  },
+  "news query": {
+    "definition": "The user wants to receive or be informed about current news and updates, often seeking specific topics or sources.",
+    "keywords": [
+      "news",
+      "headline",
+      "update",
+      "current",
+      "specific topic",
+      "source"
+    ]
+  },
+  "social post": {
+    "definition": "The user wants to share personal updates, express opinions, or send messages to their social network or friends.",
+    "keywords": [
+      "post to social media",
+      "send message",
+      "share update",
+      "tweet about",
+      "facebook post",
+      "send to friends"
+    ]
+  },
+  "cooking recipe": {
+    "definition": "The user wants to receive a specific recipe for a dish or meal from the voice assistant.",
+    "keywords": [
+      "recipe",
+      "prepare",
+      "homemade",
+      "dish",
+      "meal"
+    ]
+  },
+  "qa stock": {
+    "definition": "The user wants to inquire about the current stock price or recent changes in a specific company's stock.",
+    "keywords": [
+      "stock price",
+      "company stock",
+      "up and down",
+      "today's stocks",
+      "detail for stock"
+    ]
+  },
+  "email querycontact": {
+    "definition": "The user wants to inquire about or seek assistance with contacting someone via email, possibly requesting information or help from a contact.",
+    "keywords": [
+      "email inquiry",
+      "contact assistance",
+      "email support",
+      "query contact",
+      "email help",
+      "contact information"
+    ]
+  },
+  "qa_weather": {
+    "definition": "The user wants to inquire about current or future weather conditions and related advisories, focusing on actions such as planning or preparation.",
+    "keywords": [
+      "weather",
+      "umbrella",
+      "rain",
+      "hurricane",
+      "climate",
+      "forecast"
+    ]
+  },
+  "qa time": {
+    "definition": "The user wants to ask for specific information or details about a particular time or event, often related to scheduling or occurrences.",
+    "keywords": [
+      "what time",
+      "when",
+      "day of the week",
+      "date",
+      "event time"
+    ]
+  },
+  "qa": {
+    "definition": "The user wants to ask a question or seek information on a wide range of topics, often inquiring about definitions, facts, or general knowledge.",
+    "keywords": [
+      "ask",
+      "what",
+      "define",
+      "how much",
+      "list"
+    ]
+  },
+  "iot_coffee": {
+    "definition": "The user wants to instruct the voice assistant to prepare or make a cup of coffee using an IoT-enabled coffee maker.",
+    "keywords": [
+      "prepare coffee",
+      "make coffee",
+      "turn on coffee pot",
+      "coffee machine",
+      "brew coffee"
+    ]
+  },
+  "weather query": {
+    "definition": "The user wants to inquire about current or future weather conditions and forecasts in specific locations.",
+    "keywords": [
+      "weather",
+      "forecast",
+      "current",
+      "precipitation",
+      "temperature",
+      "conditions"
+    ]
+  },
+  "qa_location": {
+    "definition": "The user wants to ask for the location or geographical information about a place or event.",
+    "keywords": [
+      "where is",
+      "location of",
+      "where was",
+      "capital of",
+      "where can I find"
+    ]
+  },
+  "math": {
+    "definition": "The user wants to perform mathematical calculations or solve arithmetic problems using a voice assistant.",
+    "keywords": [
+      "calculate",
+      "solve",
+      "math",
+      "arithmetic",
+      "equation",
+      "answer"
+    ]
+  },
+  "email_query": {
+    "definition": "The user wants to view, search, or manage their email inbox or specific emails within it.",
+    "keywords": [
+      "show emails",
+      "search emails",
+      "filter emails",
+      "view emails",
+      "latest emails",
+      "received emails"
+    ]
+  },
+  "event_query": {
+    "definition": "The user wants to query or manage specific events, including finding details about upcoming or recent events, scheduling changes, or canceling events.",
+    "keywords": [
+      "information of recent events",
+      "upcoming event",
+      "delete event",
+      "cancel event",
+      "upcoming concerts",
+      "event details"
+    ]
+  },
+  "transport_query": {
+    "definition": "The user wants to inquire or manage transportation-related information or services such as booking, confirming, or checking traffic conditions.",
+    "keywords": [
+      "book",
+      "train ticket",
+      "call cab",
+      "traffic",
+      "travel ticket",
+      "confirm ticket"
+    ]
+  },
+  "qa_transport": {
+    "definition": "The user wants to inquire about transportation schedules and timings, including trains and appointments, often specifying dates and locations.",
+    "keywords": [
+      "check time",
+      "train schedule",
+      "appointment timing",
+      "leave time",
+      "travel timing"
+    ]
+  },
+  "social parenting": {
+    "definition": "The user wants to seek advice or information related to parenting issues and concerns.",
+    "keywords": [
+      "parenting",
+      "baby",
+      "child",
+      "advice",
+      "care",
+      "development"
+    ]
+  },
+  "set reminder": {
+    "definition": "The user wants to set or configure a reminder for a specific event or task at a particular time or date.",
+    "keywords": [
+      "set reminder",
+      "remind me",
+      "at specific time",
+      "configure reminder"
+    ]
+  },
+  "qa_cooking": {
+    "definition": "The user wants to ask a question related to cooking and food preparation, often seeking clarification or comparison between different cooking methods or ingredients.",
+    "keywords": [
+      "cooking method",
+      "food comparison",
+      "ingredient quality",
+      "cooking technique",
+      "food preparation",
+      "cooking advice"
+    ]
+  },
+  "social_negative": {
+    "definition": "The user wants to express a negative sentiment or complaint towards a person or entity in a social context, often seeking acknowledgment or action from the assistant.",
+    "keywords": [
+      "complaint",
+      "negative",
+      "thank you",
+      "dislike",
+      "feed and pet",
+      "disapprove"
+    ]
+  },
+  "iot_action": {
+    "definition": "The user wants to control or activate an IoT device or appliance, often through a voice command.",
+    "keywords": [
+      "turn on",
+      "turn off",
+      "activate",
+      "deactivate",
+      "control",
+      "wemo"
+    ]
+  },
+  "time query": {
+    "definition": "The user wants to inquire about the current time in a specific location or in a general format.",
+    "keywords": [
+      "current time",
+      "present time",
+      "tell me when",
+      "five p.m.",
+      "quarter to two"
+    ]
+  },
+  "planning task": {
+    "definition": "The user wants to create, organize, or inquire about specific plans or tasks, often related to daily activities or future events.",
+    "keywords": [
+      "plan",
+      "tasks",
+      "schedule",
+      "organize",
+      "today",
+      "tomorrow"
+    ]
+  },
+  "calendar": {
+    "definition": "The user wants to manage or interact with calendar events by adding, removing, or erasing appointments and scheduled activities.",
+    "keywords": [
+      "calendar event",
+      "remove appointment",
+      "mark event",
+      "erase events",
+      "delete calendar item"
+    ]
+  },
+  "local business query": {
+    "definition": "The user wants to inquire about local businesses and services in their vicinity, such as shopping malls, delivery options, and cost of living comparisons.",
+    "keywords": [
+      "local business",
+      "nearby delivery",
+      "shopping mall",
+      "cost of living",
+      "nearest shop"
+    ]
+  },
+  "location query": {
+    "definition": "The user wants to obtain geographic or location-based information or directions, often seeking specific places or routes.",
+    "keywords": [
+      "where is",
+      "nearest",
+      "directions to",
+      "geographic details",
+      "near me",
+      "venue"
+    ]
+  },
+  "transport errand": {
+    "definition": "The user wants to add or include a specific errand related to transportation in their planned activities.",
+    "keywords": [
+      "add",
+      "errand",
+      "post office",
+      "transport",
+      "Saturday"
+    ]
+  },
+  "grocery list": {
+    "definition": "The user wants to manage and interact with their grocery list, including viewing its contents, adding items, and making inquiries about its status.",
+    "keywords": [
+      "view",
+      "contents",
+      "add",
+      "item",
+      "status",
+      "ready"
+    ]
+  },
+  "finance_query": {
+    "definition": "The user wants to inquire or manage their financial status or specific financial products and services, such as budgeting, price tracking, or removing items from a wishlist.",
+    "keywords": [
+      "inquire about",
+      "track price",
+      "budget",
+      "remove item",
+      "financial status",
+      "wishlist"
+    ]
+  },
+  "customer service query": {
+    "definition": "The user wants to initiate or have the assistant perform a direct action on their behalf to address a complaint or issue with a company or service.",
+    "keywords": [
+      "complaint",
+      "contact",
+      "post",
+      "tweet",
+      "open",
+      "service"
+    ]
+  },
+  "sunscreen query": {
+    "definition": "The user wants to determine the necessity of applying sunscreen based on the weather or time of day.",
+    "keywords": [
+      "need",
+      "sunscreen",
+      "afternoon",
+      "later",
+      "weather"
+    ]
+  },
+  "food order": {
+    "definition": "The user wants to place an order for food items from a specific restaurant or store, often specifying the quantity and type of food.",
+    "keywords": [
+      "order",
+      "takeaway",
+      "pizza",
+      "wings",
+      "sushi",
+      "delivery"
+    ]
+  },
+  "light control": {
+    "definition": "The user wants to adjust the brightness or intensity of the lights in a specific location or overall, either increasing or decreasing them as per their requirement.",
+    "keywords": [
+      "turn up",
+      "lower",
+      "brightness",
+      "lights",
+      "dim",
+      "illumination"
+    ]
+  },
+  "qa_sunglasses": {
+    "definition": "The user wants to ask about the appropriateness of wearing sunglasses based on the current weather or lighting conditions.",
+    "keywords": [
+      "sunglasses",
+      "recommend",
+      "weather",
+      "lighting",
+      "appropriate"
+    ]
+  },
+  "qa_currency": {
+    "definition": "The user wants to convert or inquire about currency exchange rates or values between different monetary units.",
+    "keywords": [
+      "exchange rate",
+      "currency conversion",
+      "dollar rate",
+      "pound",
+      "foreign currency"
+    ]
+  },
+  "qa hobby": {
+    "definition": "The user wants to ask questions about hobbies and interests, often seeking factual information or descriptions related to specific individuals or activities.",
+    "keywords": [
+      "hobby of",
+      "what is",
+      "describe",
+      "interest in",
+      "related to"
+    ]
+  },
+  "qa_email": {
+    "definition": "The user wants to ask or seek information related to emails, such as checking email content, status, or performing email-related inquiries.",
+    "keywords": [
+      "email status",
+      "check email",
+      "email content",
+      "email inquiry"
+    ]
+  },
+  "qa_rhyme": {
+    "definition": "The user wants to request a joke or humorous statement from the voice assistant.",
+    "keywords": [
+      "joke",
+      "funny",
+      "humorous",
+      "crack a joke",
+      "good joke"
+    ]
+  },
+  "qa_todo": {
+    "definition": "The user wants to perform or manage various tasks or actions, such as resuming an activity, removing items from a list, or creating a list based on specific criteria.",
+    "keywords": [
+      "resume",
+      "remove",
+      "list",
+      "create",
+      "task",
+      "activity"
+    ]
+  },
+  "qa_trivia": {
+    "definition": "The user wants to engage in a trivia or knowledge-seeking interaction with the voice assistant, often involving fun or random questions that may not have a practical application but are meant to entertain or educate.",
+    "keywords": [
+      "trivia",
+      "funny joke",
+      "random question",
+      "knowledge",
+      "entertain",
+      "educate"
+    ]
+  },
+  "audio book": {
+    "definition": "The user wants to listen to an audio book or podcast, often resuming from a previous point or playing the next episode.",
+    "keywords": [
+      "listen",
+      "audio book",
+      "podcast",
+      "resume",
+      "next episode"
+    ]
+  },
+  "todo list": {
+    "definition": "The user wants to inquire or manage their tasks or items in a to-do list, which may involve checking, creating, or clearing the list.",
+    "keywords": [
+      "check recent",
+      "create a new",
+      "let me know",
+      "what is on",
+      "clear list"
+    ]
+  },
+  "personal query": {
+    "definition": "The user wants to express personal thoughts, intentions, or actions related to their day or social media status.",
+    "keywords": [
+      "taking day off",
+      "status comment",
+      "personal day",
+      "social media scan",
+      "memo note"
+    ]
+  },
+  "meeting query": {
+    "definition": "The user wants to inquire, schedule, or manage meetings and related events, often involving time, cancellation, or viewing of upcoming meetings.",
+    "keywords": [
+      "meeting",
+      "schedule",
+      "cancel",
+      "upcoming",
+      "inquiry",
+      "event"
+    ]
+  },
+  "cleaning task": {
+    "definition": "The user wants to initiate or start a cleaning activity, specifically involving vacuuming or other cleaning tasks.",
+    "keywords": [
+      "begin vacuuming",
+      "start the vacuum",
+      "suck out the dust",
+      "clean shopping list",
+      "clean car"
+    ]
+  },
+  "play game": {
+    "definition": "The user wants to initiate or start a game session, which can be a specific game title or a general request to play a game.",
+    "keywords": [
+      "play game",
+      "start game",
+      "play",
+      "game session",
+      "play chess",
+      "play papa pear saga"
+    ]
+  },
+  "app open": {
+    "definition": "The user wants to initiate or open a specific application or program on their device.",
+    "keywords": [
+      "turn on",
+      "play on",
+      "open",
+      "launch",
+      "start"
+    ]
+  },
+  "alarm setting": {
+    "definition": "The user wants to set, manage, or inquire about alarms on their voice assistant.",
+    "keywords": [
+      "set alarm",
+      "alarms",
+      "view alarms",
+      "new alarm",
+      "alarms list"
+    ]
+  },
+  "clear list": {
+    "definition": "The user wants to remove items or entries from various lists or collections such as to-do lists, activity logs, or event calendars.",
+    "keywords": [
+      "delete item",
+      "remove events",
+      "clear list",
+      "remove from list",
+      "delete entries"
+    ]
+  },
+  "sports query": {
+    "definition": "The user wants to inquire about sports-related information, including rules, recent events, current news, and specific game details.",
+    "keywords": [
+      "sports rules",
+      "sports news",
+      "game details",
+      "recent sports events",
+      "current sports updates"
+    ]
+  },
+  "credit inquiry": {
+    "definition": "The user wants to inquire about credit-related matters such as eligibility, types, or descriptions of credit products.",
+    "keywords": [
+      "credit card",
+      "credit inquiry",
+      "credit eligibility",
+      "credit types",
+      "credit description"
+    ]
+  },
+  "crime news": {
+    "definition": "The user wants to obtain recent and relevant information about criminal activities, legal issues, and related topics in the form of news updates or statistics.",
+    "keywords": [
+      "latest crime news",
+      "terrorism updates",
+      "trump controversies",
+      "city safety",
+      "crime statistics"
+    ]
+  },
+  "radio show": {
+    "definition": "The user wants to listen to or control a radio station or channel as part of their request.",
+    "keywords": [
+      "start radio",
+      "listen to radio",
+      "radio station",
+      "current station",
+      "change radio"
+    ]
+  },
+  "latest news": {
+    "definition": "The user wants to hear the most recent news headlines or summaries from a variety of sources, often seeking a broad overview of current events without specifying a particular topic.",
+    "keywords": [
+      "latest news",
+      "headlines",
+      "current events",
+      "summaries",
+      "recent updates"
+    ]
+  },
+  "policy query": {
+    "definition": "The user wants to inquire about or obtain information related to current or recent political events, decisions, or policies.",
+    "keywords": [
+      "policy",
+      "foreign policy",
+      "border wall",
+      "new information",
+      "trump"
+    ]
+  },
+  "help_complaint": {
+    "definition": "The user wants to express dissatisfaction or report an issue, often through a specific channel or to a particular person.",
+    "keywords": [
+      "send complaint",
+      "report issue",
+      "complaint tweet",
+      "send to",
+      "specific recipient"
+    ]
+  }
+}
